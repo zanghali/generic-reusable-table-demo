@@ -1,0 +1,29 @@
+.generic-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.generic-table thead {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.generic-table tr th,
+.generic-table tr td {
+  padding: 0.5rem;
+  border: 1px solid gray;
+}
+
+.generic-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.generic-table tr th button {
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+.resizable {
+  overflow: auto;
+  resize: horizontal;
+}
